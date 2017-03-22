@@ -1,0 +1,47 @@
+doctype html
+html(lang="en")
+  
+  head
+    title Front Topnav
+
+    // build:remove 
+    link(href="stage/css/stage.css", rel="stylesheet")
+    // endbuild
+    
+
+    // build:css style.css
+    link(href="/css/top-nav-svg.css", rel="stylesheet")
+    link(href="css/main.css", rel="stylesheet")
+    // endbuild
+
+  body
+    include ./_top-nav.jade
+
+
+    // build:js /js/top-nav-svg.js
+    script(src="/bower-libs/jquery/dist/jquery.js")
+    script(src="/js/top-nav-svg.js")
+    // endbuild
+    
+    
+    // build:js /js/libs.js
+    script(src="/bower-libs/shadow-icons/rel/app.js")
+    // endbuild
+
+
+    // build:remove 
+    script(src="https://use.typekit.net/cqd5kth.js")
+    // endbuild
+
+    script(type="text/javascript").
+      try{Typekit.load({ async: true });}catch(e){}
+      castShadows()
+
+
+    
+    
+    
+    
+    // build:remove 
+    script(src="http://localhost:35729/livereload.js")
+    // endbuild
