@@ -9,7 +9,7 @@ This library contains the css for styling a nanobox top nav. Because each implem
 
 ### External Javascript Libraries
 * jquery
-* [Shadow Icons](https://github.com/Tolmark12/shadow-icons-js) `rel/app.js`
+* [Shadow Icons](https://github.com/Tolmark12/shadow-icons-js) `shadow-icons-js/rel/app.js`
 
 ### SVG Javascript
 * `rel/js/top-nav-svg.js`
