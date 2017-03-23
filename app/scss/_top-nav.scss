@@ -1,5 +1,5 @@
 
-body{overflow-x: hidden;}
+body                          {overflow-x: hidden;}
 
 .top-nav-wrapper              {font-family: $proxima; -webkit-font-smoothing:antialiased;
   a                           {text-decoration:none; }
@@ -77,7 +77,7 @@ body{overflow-x: hidden;}
               .get-started    {order: -1}
             }
             .more             {
-              > svg{display: none; }
+              > svg           {display: none; }
             }
             // .more > a         {pointer-events: none}
           }
@@ -93,5 +93,12 @@ body{overflow-x: hidden;}
         }
       }
     }
+  }
+
+  // This prevents some weirdness around nav overflow..
+  // Important, if we add more items to the nav, this may need to change
+  @media screen and (max-width:640px )
+                              {
+    .top-nav                  {overflow-x: hidden; min-height: 230px;}
   }
 }
