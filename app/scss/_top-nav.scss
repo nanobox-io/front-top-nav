@@ -13,6 +13,7 @@ body                          {overflow-x: hidden;}
       .nav                    {display:flex;  font-size:12px; letter-spacing: 0.06em; font-weight: $bold; text-transform: uppercase; justify-content: space-between;
         .left-items,
         .right-items          {display: flex; align-items: baseline;}
+        .phone                {color:#8094a1; font-size:13px; font-weight: $semibold; font-style: italic; text-transform: none; letter-spacing: 0; }
         a                     {color:#94ACBA; margin-left:32px; display:flex; align-items: center;
           &:hover             {color:#0091D5;}
           &.sign-up           {color:#19abf5; border-bottom:solid 3px; padding-bottom: 2px; }
